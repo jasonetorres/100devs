@@ -30,3 +30,5 @@ function run() {
 //
 //   synth.speak(yellThis);
 // }
+// a box to input the temperature you are looking to convert
+//create the code in js that will allow someone to put the temp in and convert to 
