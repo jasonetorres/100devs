@@ -1,0 +1,13 @@
+
+// Image has no margin
+function test_image_has_no_margin() {
+  const img = document.createElement('img');
+  img.classList.add('img');
+  document.body.appendChild(img);
+
+  const imgStyle = window.getComputedStyle(img);
+  const margin = imgStyle.getPropertyValue('margin');
+
+  assert.strictEqual(margin, '0px');
+}
+

@@ -19,12 +19,39 @@
   //alert(prod)
 //}
 //divideAndMult(12,3,4)
-function makePizza() {
-    const pizzaToppings = ["Pepperoni", "Cheese"];
-    return pizzaToppings;
-  }
+//function makePizza() {
+  //  const pizzaToppings = ["Pepperoni", "Cheese"];
+    //return pizzaToppings;
+  //}
   
-  const myPizza = makePizza();
-  alert("It's pizza time");
-  console.log("My pizza toppings:", myPizza);
+ // const myPizza = makePizza();
+  //alert("It's pizza time");
+  //console.log("My pizza toppings:", myPizza);
   
+
+
+  //function cubeRootIt(robot){
+   // console.log( Math.cbrt(robot).toFixed(1) )
+ // }
+ // cubeRootIt(9)
+
+
+ // function checkForSummer(month){
+   // let monthLowerCase = month.toLowerCase
+  //  if(monthLowerCase === 'june' || monthLowerCase === 'july' || monthLowerCase === 'august'){
+   //   alert('yay')
+   // }else{
+   //   alert('boo')
+   // }}
+
+
+  // function skip5s(n){
+  //  for(let i = 1; i <= n; i++){
+   //   if(i % 5 !== 0){
+   //     console.log(i)
+   //   }
+   // }
+  // } 
+
+   let coolCars = [ '1998 Nissan GTR', "Racecar Bed', '2016 Honda Civic' ]
+   console.log (coolCars);
